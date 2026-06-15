@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH StreetWear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<div id="lupa"></div>
+
+<body>
+
+
+    <!-- Acessibilidade -->
+<div class="acessibilidade">
+    <br>
+    <br>
+    <br>
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="modoDaltonico()">🎨</button>
+    <button onclick="modoIdoso()">👴</button>
+    
+    
+    
+</div>
+
+
+
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href=index.html>Início</a>
+        <a href=produtos.html>Produtos</a>
+        <a href=sobrenos.html>Contato</a>
+        <a href=documentos.html>Documentos</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-total">
+            <h3>Total: <span id="total-price">R$0.00</span></h3>
+            <br>
+            <a href="comprar.html" class="btn-buy">Comprar</a>
+        </div>
+    </div>
+</header>
+
+<section class="home">
+
+    <div class="content">
+        <h3>Conheça nossos produtos</h3>
+        <a href=produtos.html class="btn">Compre Agora</a>
+    </div>
+
+</section>
+
+<br><br>
+<section class="about">
+
+    <h1 class="heading"> <span>sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Salve salve, meus chegados!</h3>
+            <p>Na Purple Haze Street Wear, a autenticidade é a nossa essência! Aqui, não seguimos tendências, nós as criamos. Celebramos a individualidade e a originalidade de cada um. Não importa quem você é ou de onde vem, na Purple Haze, você é livre para ser exatamente quem você é, sem filtros, sem padrões. Nosso estilo é único, assim como cada um de nossos seguidores. Então, se você está pronto para se destacar na multidão e mostrar ao mundo sua verdadeira essência, então você está pronto para fazer parte da família Purple Haze Street Wear!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<br><br>
+<section class="review">
+
+    <h1 class="heading"> opiniões dos <span>clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <p>"Adorei essa camisa! O tecido é super leve e confortável, perfeito para usar no dia a dia. O design moderno combina com várias ocasiões. Vale muito a pena pelo preço!"</p>
+            <img src="images/pic-1.jpeg" class="user" alt="">
+            <h3>Neymar</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>"Camisa de ótima qualidade! A costura é bem feita e o tecido não desbota nem encolhe após a lavagem. Ótima escolha para quem procura algo durável."</p>
+            <img src="images/pic-2.webp" class="user" alt="">
+            <h3>Messi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <p>"Essa camisa é muito estilosa! Combina tanto com looks casuais quanto com visuais mais arrumados. Recebi vários elogios quando usei. Recomendo para quem quer algo versátil!"</p>
+            <img src="images/pic-3.webp" class="user" alt="">
+            <h3>CR7</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="share">
+        <a href="linkexterno.html" class="fab fa-facebook-f"></a>
+        <a href="linkexterno.html" class="fab fa-twitter"></a>
+        <a href="linkexterno.html" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit">
+        Purple Haze StreetWear <span>| Todos os direitos reservados © 2026</span>
+    </div>
+
+</section>
+<script src="js/script.js"></script>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body>
+</html>

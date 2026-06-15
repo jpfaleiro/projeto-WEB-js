@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH StreetWear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href=index.html>Início</a>
+        <a href=produtos.html>Produtos</a>
+        <a href=sobrenos.html>Contato</a>
+        <a href=documentos.html>Documentos</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-total">
+            <h3>Total: <span id="total-price">R$0.00</span></h3>
+            <br>
+            <a href="comprar.html" class="btn-buy">Comprar</a>
+        </div>
+    </div>
+    
+</header>
+<br><br><br><br><br><br><br><br><br><br>
+<section class="menu">
+    <h1 class="heading">Nossos <span>produtos</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cart-item-1.jpg" alt="PurpleLuv">
+            <h3>PurpleLuv</h3>
+            <div class="price">R$99.99</div>
+
+            <label for="size-1">Escolha o tamanho:</label>
+            <select id="size-1" class="size-select">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+            </select>
+            <a href="#" class="btn add-to-cart" data-name="PurpleLuv" data-price="99.99" data-image="images/cart-item-1.jpg">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cart-item-2.jpg" alt="TwistOnPurple">
+            <h3>TwistOnPurple</h3>
+            <div class="price">R$99.99</div>
+
+            <label for="size-2">Escolha o tamanho:</label>
+            <select id="size-2" class="size-select">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+            </select>
+            <a href="#" class="btn add-to-cart" data-name="TwistOnPurple" data-price="99.99" data-image="images/cart-item-2.jpg">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cart-item-3.jpg" alt="PurpleChalk">
+            <h3>PurpleChalk</h3>
+            <div class="price">R$99.99</div>
+
+            <label for="size-3">Escolha o tamanho:</label>
+            <select id="size-3" class="size-select">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+            </select>
+            <a href="#" class="btn add-to-cart" data-name="PurpleChalk" data-price="99.99" data-image="images/cart-item-3.jpg">Adicionar ao carrinho</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="linkexterno.html" class="fab fa-facebook-f"></a>
+        <a href="linkexterno.html" class="fab fa-twitter"></a>
+        <a href="linkexterno.html" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit">Purple Haze StreetWear <span>| Todos direitos reservados</span></div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
